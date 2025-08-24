@@ -7,7 +7,9 @@
     "export": "next build",
     "dev": "next dev",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "serve": "npx serve out -p 8000",
+    "deploy": "npm run build && npm run serve"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",

@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/shieldsense-platform',
-  assetPrefix: '/shieldsense-platform/',
+  basePath: process.env.NODE_ENV === 'production' ? '/shieldsense-platform' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/shieldsense-platform/' : '',
   eslint: {
     ignoreDuringBuilds: true,
   },
