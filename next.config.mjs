@@ -3,6 +3,7 @@ const nextConfig = {
   output: 'export',
   basePath: process.env.NODE_ENV === 'production' ? '/shieldsense-platform' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/shieldsense-platform/' : '',
+  trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
