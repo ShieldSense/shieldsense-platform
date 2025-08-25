@@ -30,3 +30,6 @@ next-env.d.ts
 README-FIXED.md
 SOLUTION.md
 GITHUB_ACTIONS_FIX.md
+
+# static export
+index.html

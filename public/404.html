@@ -5,9 +5,9 @@
     <title>ShieldSense Platform</title>
     <script>
       // Handle client-side routing for SPA on GitHub Pages
-      const path = window.location.pathname.replace('/shieldsense-platform', '');
-      const newPath = '/shieldsense-platform/#' + path;
-      window.location.replace(newPath);
+      // Redirect to the main page so Next.js can handle the routing
+      // The basePath is already configured in next.config.mjs
+      window.location.replace('/shieldsense-platform/');
     </script>
   </head>
   <body>
